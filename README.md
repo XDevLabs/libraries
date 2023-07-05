@@ -39,6 +39,7 @@ Một số dự án đã dùng: Các dự án HTML của Nhật
 List info gồm title + content
 
 Sẽ có dạng như sau: <br>
+
 ______________________________________<br>
 | title | Lorem Ipsum is simply dummy |<br>
 |_____________________________________|<br>
