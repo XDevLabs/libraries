@@ -39,13 +39,13 @@ Một số dự án đã dùng: Các dự án HTML của Nhật
 List info gồm title + content
 
 Sẽ có dạng như sau: 
-______________________________________
-| title | Lorem Ipsum is simply dummy |
-|_____________________________________|
-| title | Lorem Ipsum is simply dummy |
-|_____________________________________|
-| title | Lorem Ipsum is simply dummy |
-|_____________________________________|
+______________________________________<br>
+| title | Lorem Ipsum is simply dummy |<br>
+|_____________________________________|<br>
+| title | Lorem Ipsum is simply dummy |<br>
+|_____________________________________|<br>
+| title | Lorem Ipsum is simply dummy |<br>
+|_____________________________________|<br>
 
 Một số dự án đã dùng: Các dự án HTML của Nhật
 
