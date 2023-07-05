@@ -1,0 +1,61 @@
+.shop-info {
+    &__detail {
+        margin-bottom: 10px;
+        font-size: 12px;
+
+        @include breakpoint(768px) {
+            font-size: 16px;
+            border: 1px solid #DDDDDD;
+        }
+
+        &--row {
+            text-align: center;
+            margin-bottom: 4px;
+
+            @include breakpoint(768px) {
+                display: flex;
+                text-align: left;
+                margin-bottom: 0;
+            }
+
+            +.shop-info__detail--row {
+
+                label,
+                p {
+                    @include breakpoint(768px) {
+                        border-top: 1px solid #ddd;
+                    }
+                }
+            }
+
+            label {
+                margin: 0;
+                font-weight: 600;
+
+                @include breakpoint(768px) {
+                    background: #EFEFEF;
+                    padding: 11px 15px;
+                    text-align: center;
+                    width: 240px;
+                }
+            }
+
+            p {
+                margin: 0;
+
+                @include breakpoint(768px) {
+                    width: calc(100% - 240px);
+                    padding: 11px 15px;
+                }
+            }
+
+            a {
+                color: var(--text-body);
+
+                &:hover {
+                    color: var(--primary);
+                }
+            }
+        }
+    }
+}

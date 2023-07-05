@@ -1,0 +1,57 @@
+.posts {
+    &__list {
+        @include breakpoint(768px) {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 34px 30px;
+        }
+
+        @include breakpoint-down(767px) {
+            padding-bottom: 5px;
+        }
+    }
+
+    &__item {
+        font-size: 16px;
+        line-height: 1.5;
+        color: #777777;
+
+        @include breakpoint-down(767px) {
+            padding: 0 15px 20px;
+        }
+
+        figure {
+            margin: 0;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        &--inner {
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+        }
+
+        &--body {
+            padding: 15px;
+        }
+
+        h3 {
+            font-size: 18px;
+            font-weight: 600;
+            margin: 0 0 5px;
+
+            a {
+                color: var(--text-body);
+
+                &:hover {
+                    color: var(--primary);
+                }
+            }
+        }
+
+        p {
+            margin: 0;
+        }
+    }
+}

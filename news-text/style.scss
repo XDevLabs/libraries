@@ -1,0 +1,37 @@
+.information {
+    &__item {
+        max-width: calc(100% - 30px);
+        margin: 0 auto;
+        padding: 17px 0;
+        line-height: 1.5;
+        font-size: 13px;
+
+        @include breakpoint(768px) {
+            max-width: calc(100% - 80px);
+            font-size: 16px;
+            border-bottom: 1px solid #DDDDDD;
+            padding: 18px 0;
+        }
+
+        @include breakpoint-down(767px) {
+            text-align: center;
+        }
+
+        time {
+            display: block;
+            margin: 0 0 5px;
+
+            @include breakpoint(768px) {
+                margin: 0 0 12px;
+            }
+        }
+
+        a {
+            color: var(--primary);
+
+            @include breakpoint-down(767px) {
+                font-size: 12px;
+            }
+        }
+    }
+}
