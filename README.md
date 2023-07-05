@@ -38,7 +38,7 @@ Một số dự án đã dùng: Các dự án HTML của Nhật
 ### Table info
 List info gồm title + content
 
-Sẽ có dạng như sau: 
+Sẽ có dạng như sau: <br>
 ______________________________________<br>
 | title | Lorem Ipsum is simply dummy |<br>
 |_____________________________________|<br>
