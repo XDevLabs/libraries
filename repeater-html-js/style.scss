@@ -1,0 +1,67 @@
+.repeater-input {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    @include breakpoint(768px) {
+        gap: 8px;
+    }
+
+    &__item {
+        display: flex;
+        gap: 6px 12px;
+        text-align: right;
+        position: relative;
+
+        @include breakpoint-down(767px) {
+            padding-right: 65px;
+            flex-wrap: wrap;
+        }
+
+        input {
+            text-align: right;
+        }
+
+        &--title {
+            max-width: 112px;
+
+            input {
+                text-align: center;
+            }
+        }
+
+        &--year {
+            max-width: 112px;
+        }
+
+        &--type {
+            max-width: 92px;
+        }
+
+        &--month {
+            max-width: 72px;
+        }
+
+        &--value {
+            max-width: 200px;
+        }
+
+        &--control {
+            @include breakpoint-down(767px) {
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+        }
+    }
+
+    &:not(.repeater-input--fields) {
+        .repeater-input__item {
+            &:first-child {
+                .repeater-input__item--remove {
+                    display: none;
+                }
+            }
+        }
+    }
+}
