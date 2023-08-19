@@ -59,3 +59,12 @@ Một số dự án đã dùng: Các dự án HTML của Nhật
 List post theo dạng grid từng box
 
 Một số dự án đã dùng: Các dự án HTML của Nhật
+
+
+### Number counter
+Đếm số từ 0 đến số đó http://garethdn.github.io/jquery-numerator/
+
+### Slider Scroll ngang và có thanh drag 
+https://www.edwinjamesgroup.co.uk/about-us/history/
+
+https://github.com/darsain/sly
